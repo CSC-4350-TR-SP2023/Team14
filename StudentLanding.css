@@ -20,7 +20,7 @@ body{
 }
 
 button{
-    background-color: rgb(230, 176, 176);
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
     border: 1px solid black;
     border-radius: 45px;
     color: black;
