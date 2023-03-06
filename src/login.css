@@ -1,3 +1,23 @@
-html{
-  background: #2e2a36;
+html {
+	background: #2e2a36;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 10px;
+	border: 2px solid #ccc;
+}
+
+button {
+	background-color: #0f5298;
+	color: white;
+	padding: 16px 20px;
+	margin: 10px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.container2 {
+	padding: 16px;
 }
