@@ -1,3 +1,4 @@
+/* This file serves as the css stylesheet for StudentLanding.html, JudgeLanding.html, TopScores.html, and Rubric.html  */
 html{
     background: #2e2a36;
 }
@@ -76,4 +77,24 @@ button:hover{
     padding: 6px 12px;
     margin:20px;
     cursor: pointer;
+}
+
+.TopScores{
+    color:white;
+    text-align: center;
+}
+.StudentScores{
+    display:table;
+    margin: auto;
+    margin-top:25px;
+}
+.StudentScores th,td{
+    border:2px solid black;
+    margin:10px;
+    padding:10px;
+}
+.Rubric{
+    color:white;
+    text-align: center;
+    margin: 20px;
 }
