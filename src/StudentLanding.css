@@ -3,6 +3,7 @@ html{
 }
 body{
     font-family:'Courier New', Courier, monospace;
+    color:black;
 }
 
 .container{
@@ -56,9 +57,13 @@ button:hover{
     padding: 10px;
     margin: 50px;
 }
+.portion4{
+    padding: 10px;
+    margin: 50px;
+}
 .container3 {
     text-align: center;
-    color: white;
+    color:white;
 }
 .UploadFile {
     text-align: center;
