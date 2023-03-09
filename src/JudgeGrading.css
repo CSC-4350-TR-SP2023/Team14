@@ -28,6 +28,12 @@ button:hover{
     align-items:center;
     align-content: center;
 }
+
+.container2 {
+	align-items: center;
+	align-content: center;
+}
+
 .portion1, .portion2, .portion3, .portion4{
     padding: 10px;
     margin: 50px;
@@ -36,10 +42,8 @@ button:hover{
 .part1{
     display: inline-block;
 	text-align: center;
-    margin: 20px;
     color: white;
     padding: 15px;
-    margin-bottom: 20px;
 	border: 2px solid white;
 }
 
