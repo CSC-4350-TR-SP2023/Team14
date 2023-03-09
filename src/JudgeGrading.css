@@ -29,11 +29,6 @@ button:hover{
     align-content: center;
 }
 
-.container2 {
-	align-items: center;
-	align-content: center;
-}
-
 .portion1, .portion2, .portion3, .portion4{
     padding: 10px;
     margin: 50px;
@@ -45,6 +40,8 @@ button:hover{
     color: white;
     padding: 15px;
 	border: 2px solid white;
+	align-items: center;
+	align-content: center;
 }
 
 /* Dropdown Button */
