@@ -34,14 +34,15 @@ button:hover{
     margin: 50px;
 }
 
+.container2 {
+    display:table;
+    margin:auto;
+    border: 2px solid white;
+}
 .part1{
-    display: inline-block;
-	text-align: center;
+    margin: 20px;
     color: white;
-    padding: 15px;
-	border: 2px solid white;
-	align-items: center;
-	align-content: center;
+    text-align: center;
 }
 
 /* Dropdown Button */
