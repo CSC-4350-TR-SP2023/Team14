@@ -18,7 +18,7 @@
         </div>
         <div class = "container2">
             <div class = "portion1"><a href="TopScores.html" target=""><button type="button">Top Scores</button></a></div> <!-- /src/UI/html/TopScores.html -->
-            <div class = "portion2"><a href="Rubric.html" target=""><button type="button">Rubric</button></a></button></div> <!-- /src/UI/html/Rubric.html -->
+            <div class = "portion2" id = "portion2"><button type="button" onclick = "showhide()">Rubric</button></button></div> <!-- /src/UI/html/Rubric.html -->
             <div class = "portion3"><a href="login.html" target=""><button type="button">Logout</button></a></button></div>
         </div>
         <div class = "container3">
@@ -32,5 +32,16 @@
                 <button type="submit" name="button" id="button"> Submit</button>
             </div>
         </div>
+
+<script>
+	function showhide() {
+		var x = document.getElementById("portion2");
+		if (x.style.display == "none")
+			x.style.display = "block";
+		else
+			x.style.display = "none";
+	}
+</script>
+
     </body>
 </html>
