@@ -18,9 +18,19 @@
         </div>
         <div class = "container2">
             <div class = "portion1"><a href="TopScores.html" target=""><button type="button">Top Scores</button></a></div> <!-- /src/UI/html/TopScores.html -->
-            <div class = "portion2" id = "portion2"><button type="button" onclick = "showhide()">Rubric</button></button></div> <!-- /src/UI/html/Rubric.html -->
+            <div class = "portion2"><button type="button" onclick = "showhide()">Rubric</button></button></div> <!-- /src/UI/html/Rubric.html -->
             <div class = "portion3"><a href="login.html" target=""><button type="button">Logout</button></a></button></div>
         </div>
+
+	<div id = "rubric">
+		The grading criteria are:<br>
+		Student was able to answer all questions presented by the judge. .... 1-10<br>
+		Student gave an interactive and engaging presentation .... 1-10<br>
+		Student's content was correct .... 1-10<br>
+		Student's poster was creative, rich, and colorful .... 1-10<br><br>
+		The total is out of 40 points, divided by 4 categories to create an average score out of 10.<br>
+	</div>
+
         <div class = "container3">
             <div class = "instructions">
                 <h3>Submit a picture of your poster below.</h3>
@@ -35,7 +45,7 @@
 
 <script>
 	function showhide() {
-		var x = document.getElementById("portion2");
+		var x = document.getElementById("rubric");
 		if (x.style.display == "none")
 			x.style.display = "block";
 		else
