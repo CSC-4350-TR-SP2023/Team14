@@ -34,7 +34,7 @@ button:hover{
 }
 
 .part1{
-    display: table;
+    display: inline-block;
 	text-align: center;
     margin: auto;
     color: white;
